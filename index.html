@@ -6,8 +6,110 @@
         <title>Document</title>
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <button type="button" class="btn btn-primary">Primary</button>
+        
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="img/GLStudio.png" width="220px" height="80px">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">Quem somos?</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#products">Parceiros</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#services">Serviços</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#partners" class="nav-link">Parceiros</a>
+                    </li>
+                </ul>
+            </div>   
+        </nav>
+        
+        <section id="about">
+            <div class="container-fluid about text-center margin">
+                <h1>Quem somos?</h1>
+                <img src="img/team.webp" class="rounded-circle" width="400" height="400">
+                <h4 class="margin">
+                    <p>
+                        Empresa com time altamente qualificado e comprometido com foco em satisfazer clientes e organizações.
+                    </p>
+                </h4>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container-fluid text-center margin products">
+                <h1>Produtos</h1>
+                <img src="img/webapp.jpeg" class="rounded-circle" width="300" height="300">
+                <h3><p>Projetos de alta qualidade, com requisitos dos clientes mais exigentes do mercado.</p></h3>
+                <button type="button" class="btn btn-lg btn-primary">Saiba mais</button>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container-fluid text-center margin services">
+                <h1 class="margin">Serviços</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Soluções em Design de Interiores</p>
+                            <img src="img/projetos.jpg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Soluções em requisitos de projetos arquitetônicos</p>
+                            <img src="img/projetos2.webp" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Outras soluções de projetos de imóveis</p>
+                            <img src="img/papeladas.jpeg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners">
+            <div class="container-fluid text-center margin partners">
+                <h1>Parceiros</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/diologo.png" width="200">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/venturus.png" width="200">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/sidi.png" width="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ceo">
+            <div class="container-fluid ceo text-center margin">
+                <h1 class="margin">Sobre o CEO</h1>
+                <img src="img/ceo.jpg" class="rounded-circle" width="400px" height="400px">
+                <h2 style="font-weight: 900;">Ednaldo Pereira</h2>
+                <h4 class="margin">
+                    <p>
+                        Cantor, "humorista" e criador de conteúdo, premiado pelo hit "Vale Tudo. Vale Nada".
+                    </p>
+                </h4>
+            </div>
+        </section>
+
+
+        <footer class="text-center bg-footer margin">
+            <p>Desenvolvido por Nhemon Software inc</p>
+        </footer>
     </body>
 </html>

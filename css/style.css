@@ -1,0 +1,73 @@
+body
+{
+    font-family: 'Jost', sans-serif;
+    color: #fff
+}
+
+.navbar
+{
+    background-color: #ddd;
+}
+
+.about
+{
+    background-color: #acc;
+}
+
+.margin
+{
+    padding: 50px 0 50px 0;
+}
+
+.text-center h4
+{
+    padding: 10px 0 0 0;
+}
+
+.ceo
+{
+    background-color: #666;
+}
+
+.nav-item .active:hover
+{
+    background-color: #eee;
+}
+
+#partners
+{
+    background-color: #ede;
+    display: flex;
+}
+
+.partners
+{
+    padding-top: 10px;
+}
+
+#products
+{
+    background-color: #8a8;
+}
+
+.row
+{
+    padding-top: 10px;
+}
+
+.row .col-lg-4
+{
+    padding-top: 40px;
+}
+
+#services
+{
+    background-color: #55d;
+}
+
+.bg-footer
+{
+    background-color: #daa;
+    color: #d00d00;
+    font-weight: 900;
+}
